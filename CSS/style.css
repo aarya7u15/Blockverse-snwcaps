@@ -316,4 +316,30 @@ footer {
   }
 }
 
+/* search baar styles */
+#searchInput {
+  width: 60%;
+  max-width: 350px;
+  padding: 12px 15px;
+  background-color: #141414;
+  border: 2px solid #00ff88;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  margin: 20px auto;
+  display: block;
+  transition: 0.3s ease;
+}
+
+#searchInput::placeholder {
+  color: #888;
+}
+
+#searchInput:focus {
+  border-color: #00ff88;
+  box-shadow: 0 0 12px #00ff88;
+  transform: scale(1.03);
+}
+
 
